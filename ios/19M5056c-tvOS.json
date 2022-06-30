@@ -1,0 +1,21 @@
+{
+  "osStr": "tvOS",
+  "version": "15.6 beta 4",
+  "build": "19M5056c",
+  "released": "2022-06-28",
+  "beta": true,
+  "deviceMap": [
+    "AppleTV5,3",
+    "AppleTV6,2",
+    "AppleTV11,1"
+  ],
+  "uniqueBuild": "19M5056c-tvOS",
+  "sortVersion": "15.6 beta 4",
+  "osType": "tvOS",
+  "devices": {
+    "AppleTV5,3": {},
+    "AppleTV6,2": {},
+    "AppleTV11,1": {}
+  },
+  "appledburl": "https://appledb.dev/firmware.html?os=tvOS&build=19M5056c%7D"
+}
