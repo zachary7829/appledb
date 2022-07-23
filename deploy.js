@@ -33,7 +33,7 @@ function write(p, f) {
 function writeJson(dirName, arr, property) {
   var obj = {}
   arr.map(function(x) { obj[x[property]] = x })
-
+  
   mkdir(path.join(p, dirName))
   write(path.join(p, dirName, 'index.json'), JSON.stringify(arr.map(x => x[property]), null, 2))
   write(path.join(p, dirName, 'main.json'), JSON.stringify(obj, null, 2))
